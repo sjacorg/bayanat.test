@@ -1,3 +1,1 @@
-CREATE TABLE test_table2 (
-    id SERIAL PRIMARY KEY,
- 
+DROP TABLE test_table2;
