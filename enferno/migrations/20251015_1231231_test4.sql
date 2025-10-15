@@ -1,2 +1,1 @@
-created_at
-);
+alter table test_table drop column name;
