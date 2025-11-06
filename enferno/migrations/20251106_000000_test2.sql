@@ -1,3 +1,5 @@
-CREATE TABLE test_table (
+CREATE TABLE IF NOT EXISTS test_table (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) N
+    name VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
